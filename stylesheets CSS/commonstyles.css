@@ -1,0 +1,23 @@
+body{
+    margin:0%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    background-color: rgb(3, 3, 45);
+    padding: 100px 50px 5px;
+    height: 190px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto Slab", serif;
+}
+
+.footersection{
+    background-color:  rgb(3, 3, 45); 
+    padding: 100px 20px;
+    height: 190px;
+    color: #cbcbcb;
+    flex-direction: column;
+}
+

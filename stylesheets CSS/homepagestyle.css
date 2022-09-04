@@ -1,0 +1,161 @@
+/* head section styles - this will make the image in background stay centered
+and fixed*/
+
+.head-section{
+    background-image: url(../images/food.jpg);
+    padding: 100px;
+    height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head-section > .top-heading{
+    padding: 1px 20px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+    
+}
+
+.head-section > .bottom-heading{
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 120px;
+    border-radius: 2px;
+
+}
+
+.features-section {
+    height: 400px;
+    background-image: url(../images/gold.jpg);
+    background-color:#cea135;
+    border-top: 10px solid white;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.features-section >  .columns-wrapper{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(254, 254, 254, 0.547);
+    padding: 20px;
+}
+
+.features-section >  .columns-wrapper > .column{
+    padding:20px;
+    margin: 40px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition:1s;
+    width: 200px;
+}
+
+.features-section >  .columns-wrapper > .column:hover{
+    border-bottom: 5px solid black;
+    letter-spacing: 2px;
+    transition: 1s;
+
+}
+
+/* nth child*/
+
+.features-section >  .columns-wrapper > .column :nth-child(2){
+    font-size: 2em;
+}
+
+
+/*footer section styles*/
+
+.footersection > .footerheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footersection > .footerheading h3{
+    color: white;
+    font-size:x-large;
+}
+ 
+.footersection > .pnwh p{
+    color: white;
+    text-align: center;
+    filter: brightness(50%);
+    font-size: small;
+}
+
+.footercontactinfo > .links{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 50px 500px;
+    text-decoration: none;
+    font-size: small;
+}
+
+.footercontactinfo > .links > .nav-link{
+    width: 70px;
+    text-align:center;
+}
+
+.footercontactinfo > .links > .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu Condensed", sans-serif; 
+    transition: 0.5s;
+}
+
+.footercontactinfo > .links > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.footersection > .socialmedialinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedialinks{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px 500px;
+    text-decoration: none;
+}
+
+.socialmedialinks > .nav-link{
+    width: 230px;
+    text-align:center;
+}
+
+.socialmedialinks > .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu Condensed", sans-serif; 
+    transition: 0.5s;
+}
+
+.socialmedialinks > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 0.5px;
+}
+
+.footersection > .lastline h6{
+    text-align: center;
+    color: white;
+    filter: brightness(50%);
+    padding: 10px 5px;
+}
+

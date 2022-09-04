@@ -1,0 +1,114 @@
+.left-column > .contact > .workinghrs{
+    color:#858585;
+    font-size: 0.8em;
+
+}
+
+.firstline{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.left-column > .contact{
+    color:white;
+    float: left;
+    display:grid;
+    grid-gap:10px;
+}
+
+.detailadd{
+    float: right;
+    color: whitesmoke;
+}
+
+.flaticon{
+    color:white;
+    font-size: 2em;
+    margin-right: 15px; 
+}
+
+/* this will add transition */
+.firstline >  .callicon> .flaticon{
+    transition: 0.5s;
+}
+
+/* this will add transition from one color to other whenever mouse points it
+and gives a spacing between the letters */
+.firstline >  .callicon> .flaticon:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.firstline >  .callicon{
+    width: 70px;
+    text-align:center;
+}
+
+.firstline >  .addressicon> .flaticon{
+    transition: 0.5s;
+}
+
+.firstline >  .addressicon> .flaticon:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.firstline >  .addressicon{
+    width: 70px;
+    text-align:center;
+}
+
+/* this will add all the elements in the brackets to a flexbox container */
+.secondline-wrapper > .links{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 50px 500px;
+    text-decoration: none;
+}
+
+.links > .nav-link{
+    width: 70px;
+    text-align:center;
+}
+
+.links > .nav-link a{
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu Condensed", sans-serif; 
+    transition: 0.5s;
+}
+
+.links > .nav-link a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.right-column > .detailadd a{
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu Condensed", sans-serif; 
+    transition: 0.5s; 
+}
+
+.right-column > .detailadd a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.right-column > .detailadd{
+    width: 90px;
+    text-align:center;
+}
+
+.mapframe{
+    border-top: 10px solid white;
+}

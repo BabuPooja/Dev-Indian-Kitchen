@@ -1,0 +1,187 @@
+@media (max-width: 615px) {
+
+    /* the first section of the webpage contents*/
+
+    .links-wrapper  {
+        height: 100%;
+        padding-bottom: 60%;
+        background-color: rgb(3, 3, 45);
+    }
+
+    .links-wrapper > .container > .firstline{
+        flex-direction: column;
+    }
+
+    .links-wrapper > .container > .firstline {
+        order: 1;
+        width: 80%;
+    }
+
+    .links-wrapper > .container > .firstline > .callicon{
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .links-wrapper > .container > .firstline > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .links-wrapper > .container > .firstline > .addressicon{
+        order: 3;
+    }
+
+    .links-wrapper > .container > .firstline > .right-column {
+        order: 4;
+        margin-top: 15px;
+    }
+
+    /* the second section of the webpage contents*/
+
+    .links-wrapper > .container > .secondline-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .secondline-wrapper > .links{
+        order: 5;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 80%;
+        padding-left: 21px;
+        padding-right: 21px;
+        font-size: small;
+    }
+
+    /*feature section wrapper*/
+
+    .features-section {
+        height: 100%;
+        padding-left: 21px;
+        padding-right: 21px;   
+    }
+
+    .features-section > .columns-wrapper {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    /*footer wrapper*/
+
+    .footersection {
+        height: 100%;
+        background-color: rgb(3, 3, 45);
+    }
+
+    .footersection > .footercontactinfo > .links{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 80%;
+        padding-left: 21px;
+        padding-right: 21px;
+        font-size: small;
+    }
+
+    .footersection > .socialmedialinks {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 80%;
+        padding-left: 21px;
+        padding-right: 21px;
+        font-size: small;       
+    }
+
+    /* about wrappers*/
+
+    .about-header > .about-header-wrapper > .about-header-content{
+        flex-direction: column;
+    }
+
+    .about-header > .header-bg {
+        background-size: 590px;
+
+    }
+    
+    .page-container {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .content-wrapper > #chef {
+        margin: 0px 0px 25px 0px !important;
+        width: 100% !important;
+    }
+
+    /* all the squares wrappers*/
+
+    .square {
+        grid-template-columns: 1fr !important;
+    }
+
+    .square > .square-text-wrapper {
+        order: 1;
+    }
+
+    .square > .img-wrapper {
+        order: 2;
+    }
+
+    .square > .img-wrapper2 {
+        order: 2;
+    }  
+    
+    /*menu wrappers*/
+
+    .squares > .square > .square-text-wrapper{
+        order: 1;
+    }
+
+    .squares > .square > .img-wrapper{
+        order: 2;
+    }
+
+    .squares > .square > .img-wrapper2{
+        order: 2;
+    }
+
+    .squares > .last-square > .square-text-wrapper h1{
+        width: 60%;
+        padding-left:20px;
+        padding-top: 35px;
+        padding-bottom: 5px;
+    }
+
+    .squares > .last-square  {
+        flex-direction:column;
+        padding-left: 50px;
+        margin-left: 200px;
+    }
+
+    .squares > .last-square > .img-wrapper-food{
+        margin-top: 10%;
+    }
+
+    /* contact page wrappers*/
+
+    .contact-grid-wrapper {
+        width: 80%;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+
+    /*forms wrappers*/
+
+    .form input {
+        padding: 1.5rem 0rem;
+    }
+
+    .form textarea {
+        padding: 1.5rem 0rem;
+    }
+
+}
